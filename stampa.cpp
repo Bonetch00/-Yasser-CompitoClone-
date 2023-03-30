@@ -1,7 +1,7 @@
 /*
 Scrivere un programma che stampi "n" volte la stringa "Bada come la fuma"  con "n" dato in input dall'utente.
 
-NOME COGNOME DATA
+NOME Ammaar COGNOME Yasser DATA 30/03/2023
 */
 
 # include <iostream>
@@ -16,4 +16,4 @@ int main()
    cout<<"Bada come la fuma"<<endl; 
   }
   system("pause");
-}
+/
