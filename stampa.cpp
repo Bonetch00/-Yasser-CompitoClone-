@@ -8,12 +8,12 @@ NOME Ammaar COGNOME Yasser DATA 30/03/2023
 using namespace std;
 int main()
 {
-  int i=10 ,n;
+  int n;
   cout<<"Quante volte voi stampare la frase? ";
   cin>>n;
-  while (i<n)
+  for(int i=0;i<n;i++)
   {
-   cout<<"Bada come la fuma"<<endl; 
+   cout<<"Bada come la fuma"<<endl;
   }
   system("pause");
 /
