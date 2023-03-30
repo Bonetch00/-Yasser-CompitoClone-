@@ -1,0 +1,30 @@
+   34  mkdir prova 
+   35  cd prova
+   36  git clone https://github.com/sena-meucci/niceTeam.git 
+   37  cd niceTeam
+   38  git log 
+   39  git branch
+   40  code .
+   41  cd Desktop/
+   42  cd GITCLONE
+   43  mkdir GITCLONE
+   44  cd GITCLONE/
+   45  git clone https://github.com/sena-meucci/progettoStampa.git
+   46  git user.name "Bonetch00"
+   47  git --help
+   48  git config user.name "Bonetch00"
+   49  cd progettoStampa/
+   50  git config user.name "Bonetch00"
+   51  git config user.mail "yassersabersolimanmohamed.ammaar@itismeucci.com"
+   52  git add .
+   53  git commit -m "inserito nome"
+   54  code .
+   55  git branch Bugfix
+   56  git checkout Bugfix
+   57  git add .
+   58  git commit -m "errore risolto int stampa"
+   59  git checkout master
+   60  git merge Bugfix
+   61  git -d Bugfix
+   62  git branch -d Bugfix
+   63  history 30 > comandi.txt
